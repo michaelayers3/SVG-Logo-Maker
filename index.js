@@ -5,8 +5,6 @@ const Logo = require('./lib/shapes.js');
 
 
 //Ask for user input 
-function init() 
-{
 console.log("Let's make you a rad logo!");
 inquirer
     .prompt([
@@ -50,11 +48,19 @@ inquirer
             (err) => 
             err ? console.error(err) : console.log('Check out your new logo!')
     );
-};
 
-init();
+
+
     
 
 //Create a function to render SVG
 
+const logo = new Logo(
+    `svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200"
+     xmlns="http://www.w3.org/2000/svg"
+
+     <${response.shape} fill="${response.shapeColor}" />
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="${response.textColor}">${response.text}</text>
+    </svg>`
+);
  
