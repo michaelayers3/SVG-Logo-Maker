@@ -42,13 +42,6 @@ inquirer
     ])
     
     .then(function(response){
-        // const shape = new Shape(
-        //     response.text,
-        //     response.shape,
-        //     response.textColor,
-        //     response.shapeColor,
-        // );
-        // console.log(shape.render());
         if (response.shape === 'circle') {
             const circle = new Circle(
                 response.text,
