@@ -50,7 +50,7 @@ inquirer
             );
          fs.writeFile('./examples/logo.svg', circle.render(), function(err){
             if (err) throw err;
-            console.log('Saved!');
+            console.log('Generated logo.svg!');
         }
          )}
         else if (response.shape === 'square') {
@@ -61,7 +61,7 @@ inquirer
             );
             fs.writeFile('./examples/logo.svg', square.render(), function(err){
                 if (err) throw err;
-                console.log('Saved!');
+                console.log('Generated logo.svg!');
             }
             )}
             else if (response.shape === 'triangle')
@@ -73,7 +73,7 @@ inquirer
                 );
                 fs.writeFile('./examples/logo.svg', triangle.render(), function(err){
                     if (err) throw err;
-                    console.log('Saved!');
+                    console.log('Generated logo.svg!');
                 }
                 )}
         });

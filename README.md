@@ -23,7 +23,7 @@ To install necessary dependencies, run the following command:
     ```
         
  ## Usage
-This application can be used to generate an SVG file with the user's input. The user can then download the SVG file and use it as placeholders for their website. The user can also use the SVG file as a logo for their website. The uses are endless. 
+This application can be used to generate an SVG file with the user's input. The user can then download the SVG file and use it as placeholders for their website. The user can also use the SVG file as a logo for their website. [The following video](https://drive.google.com/file/d/1zRDi86eWitl5kQUxV20nsaXJcYMYT9GY/view) demonstrates the application's functionality.
         
  ## License
  MIT
